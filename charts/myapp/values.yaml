@@ -21,7 +21,7 @@ redis:
   storage: 1Gi
 
 app:
-  image: ufofon/app:addcdworkflowv5
+  image: ufofon/app:addcdworkflowv10
   replicas: 3
   secret:
     mysqlUser: "frodo"
