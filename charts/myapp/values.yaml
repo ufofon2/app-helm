@@ -16,12 +16,12 @@ db:
     user: "frodo"
 
 redis:
-  image: ufofon/app:v3
+  image: ekchoi3912/redis:v1
   replicas: 1
   storage: 1Gi
 
 app:
-  image: ekchoi3912/was1:v1
+  image: ufofon/app:v3
   replicas: 3
   secret:
     mysqlUser: "frodo"
