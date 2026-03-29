@@ -16,7 +16,7 @@ db:
     user: "frodo"
 
 redis:
-  image: ekchoi3912/redis:v1
+  image: ufofon/app:v3
   replicas: 1
   storage: 1Gi
 
